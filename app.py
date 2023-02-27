@@ -36,7 +36,7 @@ def add_grocery():
 
 
 # view all grocery by type
-@app.route('/grocery/type/<type>')
+@app.route('/grocery/type/<type>') 
 def all_grocery_by_type(type):
     """Get all grocery by type"""
     pass
